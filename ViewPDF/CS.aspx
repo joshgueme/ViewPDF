@@ -39,7 +39,7 @@
                 <asp:BoundField DataField="Name" HeaderText="File Name" />
                 <asp:TemplateField ItemStyle-HorizontalAlign="Center">
                     <ItemTemplate>
-                        <asp:LinkButton ID="lnkView" runat="server" Text="Ver" OnClick="View" CommandArgument='<%# Eval("Id") %>'></asp:LinkButton>
+                        <asp:LinkButton ID="lnkView" runat="server" Text="Ver" OnClick="View" CommandArgument='<%# Eval("Id") %>' Font-Bold="true"></asp:LinkButton>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
